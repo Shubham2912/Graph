@@ -48,3 +48,6 @@ int main()
 
     cout<<minDist;
 }
+// if there are -ve distances in graph then initialize graph with INT_MAX and  modify line 9 and 16 to not be equal to INT_MAX instead of -1 similarly do so for dp choose a 
+//dis which will not appear.
+
